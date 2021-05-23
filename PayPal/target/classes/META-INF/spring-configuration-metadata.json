@@ -1,0 +1,21 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "paypal.client.id",
+      "type": "java.lang.String",
+      "description": "A description for 'paypal.client.id'"
+    },
+    {
+      "name": "paypal.mode",
+      "type": "java.lang.String",
+      "description": "A description for 'paypal.mode'"
+    },
+    {
+      "name": "paypal.secret.id",
+      "type": "java.lang.String",
+      "description": "A description for 'paypal.secret.id'"
+    }
+  ],
+  "hints": []
+}
