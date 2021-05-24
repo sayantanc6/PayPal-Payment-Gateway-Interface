@@ -17,7 +17,7 @@ public class OrderEntity {
 
 	@Id
 	@Column(name = "ORDER_ID",nullable = false,columnDefinition="VARCHAR(64)")
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "book_generator")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "paypal_generator")
 	@GenericGenerator(
 					name = "book_generator",
 					strategy = "dummy.entity.StringSequenceIdentifier"
