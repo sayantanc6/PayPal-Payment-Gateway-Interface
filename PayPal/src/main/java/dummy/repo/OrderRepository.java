@@ -9,6 +9,6 @@ import dummy.entity.OrderEntity;
 
 @Repository
 @Transactional
-public interface OrderRepository extends JpaRepository<OrderEntity, Integer> {
+public interface OrderRepository extends JpaRepository<OrderEntity, String> {
 
 }
